@@ -1,0 +1,124 @@
+#header_bg {
+  background-color: #eee;
+}
+#header_bg header {
+  margin: 0 auto;
+  width: 1200px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background: aqua;
+  height: 70px;
+}
+#header_bg header nav {
+  background-color: yellow;
+}
+#header_bg header nav a {
+  margin-left: 16px;
+}
+#header_bg header nav a:first-child {
+  margin: 0;
+}
+
+#slide_wrap {
+  position: relative;
+  margin: 0 auto;
+  width: 1200px;
+}
+#slide_wrap .slide_container .slide {
+  display: none;
+}
+#slide_wrap .slide_container .slide1 {
+  display: block;
+}
+#slide_wrap .prev, #slide_wrap .next {
+  position: absolute;
+  top: 50%;
+}
+#slide_wrap .prev {
+  left: 20px;
+}
+#slide_wrap .next {
+  right: 20px;
+}
+#slide_wrap .pagenation {
+  background-color: aquamarine;
+  position: absolute;
+  width: 100%;
+  bottom: 25px;
+  text-align: center;
+}
+#slide_wrap .pagenation a {
+  display: inline-block;
+  background: #ccc;
+  text-indent: -9999px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+#slide_wrap .pagenation .active {
+  background: #fff;
+}
+#slide_wrap .pagenation a:first-child {
+  margin: 0;
+}
+
+#gallery_wrap {
+  background-color: lime;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 1200px;
+  padding: 50px 0;
+}
+#gallery_wrap .gallery {
+  width: 100px;
+  height: 100px;
+}
+#gallery_wrap .gallery img {
+  width: 100%;
+}
+#gallery_wrap .g5 {
+  width: 200px;
+  height: 200px;
+}
+
+#bnr_wrap {
+  padding: 50px 0;
+  background-color: #222;
+  text-align: center;
+}
+#bnr_wrap span {
+  color: #fff;
+}
+
+#card_wrap {
+  margin: 0 auto;
+  width: 1200px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+#card_wrap .card {
+  width: 22%;
+  padding: 30px 20px;
+  background-color: #eee;
+}
+#card_wrap .card .photo img {
+  width: 100%;
+}
+#card_wrap .card p {
+  line-height: 1.3;
+}
+#card_wrap .card > * {
+  margin-bottom: 20px;
+}
+#card_wrap .card p:last-child {
+  margin-bottom: 0;
+}/*# sourceMappingURL=style.css.map */
